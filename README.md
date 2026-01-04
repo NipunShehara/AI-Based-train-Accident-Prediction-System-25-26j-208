@@ -61,8 +61,9 @@ Sri Lankan railway network.
 
 ---
 
-### 4️⃣ Data-Driven Accident & Blind-Spot Prediction  
+### 4️⃣ AI-Based Train-Mounted Safety Monitoring System   
 **Owner: Pramodya W.S.C – IT22026170**
+
 Collection of:
   - Real-time GPS data (speed, location)
   - IMU sensor data (acceleration, tilt, roll, yaw)

@@ -112,6 +112,7 @@ pip install opencv-python numpy
 ---
 
 ## 🏗️ High-Level Architecture
+
 ![System Architecture](architecture_diagram.png)
 
 1. **Data & Sensing Layer**

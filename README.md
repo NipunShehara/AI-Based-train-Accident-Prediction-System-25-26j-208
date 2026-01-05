@@ -84,18 +84,6 @@ Risk scores are sent to the main system to:
 ---
 
 ## 🧠 Technologies Used
- ## 🛠️ Installation & Dependencies
-
-This project requires **Python 3.x** and the following libraries to run the Object Detection module:
-
-* **OpenCV**: Used for real-time computer vision and image processing.
-* **NumPy**: Used for mathematical operations on frame arrays.
-* **Time**: Standard library for handling frame delays and camera stabilization.
-
-### **How to Install**
-Run the following command in your terminal or command prompt:
-```bash
-pip install opencv-python numpy
 
 **Core Technologies**
 

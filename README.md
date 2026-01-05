@@ -84,18 +84,7 @@ Risk scores are sent to the main system to:
 ---
 
 ## 🧠 Technologies Used
-
-**Core Technologies**
-
-- Programming: `Python`, `C/C++` (for Arduino / embedded)
-- Frameworks: `TensorFlow` / `PyTorch`, `scikit-learn`
-- Computer Vision: `OpenCV`, CNN-based object detection (e.g. YOLO)
-- Embedded / IoT: `Arduino UNO`, sensors (SW-420, microphones, ultrasonic, etc.)
-- Communication: `GSM`, `MQTT`, REST APIs
-- Data: CSV/relational DB for accident and sensor data
-- Tools: Jupyter Notebook, Google Colab, GitHub
-
-  ## 🛠️ Installation & Dependencies
+ ## 🛠️ Installation & Dependencies
 
 This project requires **Python 3.x** and the following libraries to run the Object Detection module:
 
@@ -107,6 +96,18 @@ This project requires **Python 3.x** and the following libraries to run the Obje
 Run the following command in your terminal or command prompt:
 ```bash
 pip install opencv-python numpy
+
+**Core Technologies**
+
+- Programming: `Python`, `C/C++` (for Arduino / embedded)
+- Frameworks: `TensorFlow` / `PyTorch`, `scikit-learn`
+- Computer Vision: `OpenCV`, CNN-based object detection (e.g. YOLO)
+- Embedded / IoT: `Arduino UNO`, sensors (SW-420, microphones, ultrasonic, etc.)
+- Communication: `GSM`, `MQTT`, REST APIs
+- Data: CSV/relational DB for accident and sensor data
+- Tools: Jupyter Notebook, Google Colab, GitHub
+
+ 
 
 ---
 

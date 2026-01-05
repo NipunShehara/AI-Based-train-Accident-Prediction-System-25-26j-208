@@ -131,6 +131,18 @@ Risk scores are sent to the main system to:
 
 ---
 
+## 🛠️ Installation & Dependencies
+
+This project requires **Python 3.x** and the following libraries:
+
+* **OpenCV**: For computer vision.
+* **NumPy**: For array operations.
+* **Time**: For camera stabilization.
+
+### **How to Install**
+```bash
+pip install opencv-python numpy
+
 ## 🔍 How the System Works (End-to-End Flow)
 
 1. **Sense**

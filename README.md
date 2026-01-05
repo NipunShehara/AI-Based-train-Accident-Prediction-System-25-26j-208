@@ -98,7 +98,7 @@ Risk scores are sent to the main system to:
 ---
 
 ## 🏗️ High-Level Architecture
-![System Architecture](architecture-diagram.png)
+![System Architecture](architecture_diagram.png)
 
 1. **Data & Sensing Layer**
    - Track sensors (vibration + sound)

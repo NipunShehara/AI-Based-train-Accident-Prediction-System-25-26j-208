@@ -131,17 +131,53 @@ Risk scores are sent to the main system to:
 
 ---
 
-## 🛠️ Installation & Dependencies
+#!/usr/bin/env python3
+"""Add a Dependencies section to README.md and generate requirements.txt.
 
-This project requires **Python 3.x** and the following libraries:
+Run this script from the project root (where README.md is located):
 
-* **OpenCV**: For computer vision.
-* **NumPy**: For array operations.
-* **Time**: For camera stabilization.
+    python add_dependencies_to_readme.py
 
-### **How to Install**
+It will:
+- Insert a '## 📦 Dependencies' section after the '## 🧠 Technologies Used' section (if present),
+  otherwise append it to the end of the README.
+- Create/overwrite requirements.txt with the core dependencies used by main.py.
+
+Safe to run multiple times (it will not duplicate the Dependencies section).
+"""
+
+from __future__ import annotations
+
+import pathlib
+
+
+"""
+Script Name : add_dependencies_to_readme.py
+Purpose     : Automatically add a Dependencies section to README.md
+Project     : AI-Based Train Accident Prediction System
+Author      : Lashan Ekanayaka
+
+How to use:
+1. Place this file in the same folder as README.md
+2. Run: python add_dependencies_to_readme.py
+"""
+
+from pathlib import Path
+
+# ================= DEPENDENCIES SECTION =================
+DEPENDENCIES_SECTION = """
+## 📦 Dependencies
+
+### ✅ Required (Current Implementation)
+- **Python** 3.9+
+- **OpenCV** (`opencv-python`)
+- **NumPy** (`numpy`)
+
+Install required dependencies:
 ```bash
-pip install opencv-python numpy
+pip install -r requirements.txt
+
+
 
 ## 🔍 How the System Works (End-to-End Flow)
 
